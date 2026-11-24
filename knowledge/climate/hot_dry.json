@@ -1,0 +1,19 @@
+{
+  "climate_name": "Hot and Dry",
+  "ventilation_priority": "high",
+  "cross_ventilation_priority": "high",
+  "daylight_priority": "high_controlled",
+  "opening_preference": "moderate_shaded_openings",
+  "shading_preference": "very_high",
+  "courtyard_preference": true,
+  "veranda_preference": true,
+  "balcony_preference": "deep_shaded",
+  "outdoor_space_preference": "moderate_shaded",
+  "compactness_preference": "moderate",
+  "heat_gain_reduction_preference": "very_high",
+  "passive_cooling_strategies": ["courtyard cooling", "deep shading", "thermal mass", "night ventilation"],
+  "passive_heating_strategies": [],
+  "indoor_outdoor_connection": "moderate_shaded",
+  "roof_terrace_considerations": "insulated roof with shaded terrace use",
+  "recommended_planning_strategies": ["use shaded courtyards", "limit unprotected west openings", "combine daylight with solar control"]
+}

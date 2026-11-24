@@ -1,0 +1,14 @@
+{
+ "simple_strict": "648c1917903f5874d402c52236c416f31a732641a7a23be6fd0cd59c7d1937d1",
+ "simple_strict_floors_built": 0,
+ "simple_compact": "ec0f26dac36021c2c4dfc40965765d78528b6fae4d347991f03778820d6746c7",
+ "simple_compact_floors_built": 1,
+ "medium_strict": "2f0b394aee65de71225e373dbac4e5cec530499e97c1259662e4a5aaab029201",
+ "medium_strict_floors_built": 36,
+ "medium_compact": "039ee334e3803756a6b5892572c1536643523fb79cf66346b2ab2e73ba275fe4",
+ "medium_compact_floors_built": 67,
+ "complex_strict": "51191c88a0ea07b13cea42e86486f800ef9422cbe2708b2e8c89e388b61495f9",
+ "complex_strict_floors_built": 0,
+ "complex_compact": "51191c88a0ea07b13cea42e86486f800ef9422cbe2708b2e8c89e388b61495f9",
+ "complex_compact_floors_built": 0
+}

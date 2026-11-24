@@ -1,0 +1,19 @@
+--- a/frontend-react/src/components/TwinViewer.tsx
++++ b/frontend-react/src/components/TwinViewer.tsx
+@@ -11,6 +11,8 @@
+ import { applyLighting, createRig, makeSkyEnv, makeStudioEnv } from './twinScene'
+ import type { Rig } from './twinScene'
+ import DesignPanel from './DesignPanel'
++import { downloadSmartHouse } from '@/lib/smartHouse'
++import { projectPlan } from './twinMassing'
+ 
+ export { buildTwin }
+ export type { TwinModel }
+@@ -435,6 +437,7 @@
+         <button style={btn(false)} onClick={savePng}>Save image</button>
+         <button style={btn(false)} disabled={!!busy} onClick={saveStills}>Save 4 exterior stills</button>
+         <button style={btn(false)} disabled={!!busy} onClick={exportGlb} title="Download the 3D model as a .glb file (opens in Blender, Windows 3D Viewer, web viewers)">Download 3D model (.glb)</button>
++        <button style={btn(false)} disabled={!!busy} onClick={() => downloadSmartHouse(plan, projectPlan)} title="Download the smart-house data (room lights, ceiling fans, wall switches) that goes with the .glb, for the Unity / Meta Quest demo">Smart-house data (.json)</button>
+         <button style={btn(false)} disabled={!!busy} onClick={recordOrbit}>Record orbit video</button>
+       </div>
+       {busy && <div style={{ fontSize: 13, color: '#a94a26', marginBottom: 6 }}>{busy}</div>}

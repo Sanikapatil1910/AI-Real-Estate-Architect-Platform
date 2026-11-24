@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Merge these entries into Assets/Plugins/Android/AndroidManifest.xml (Unity: Project Settings > Player > Android > Publishing Settings >
+  "Custom Main Manifest" creates the file).  Keep the rest of your existing manifest (Meta XR / OpenXR entries) as it is.
+  NOT TESTED ON A DEVICE.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- runtime microphone permission (the app still asks the user at run time: MicrophonePermission.Request) -->
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+  <!-- Android 11+ package visibility: without this SpeechRecognizer.isRecognitionAvailable() reports false even when a service exists -->
+  <queries>
+    <intent>
+      <action android:name="android.speech.RecognitionService" />
+    </intent>
+  </queries>
+</manifest>

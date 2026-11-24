@@ -1,0 +1,19 @@
+{
+  "climate_name": "Temperate",
+  "ventilation_priority": "balanced",
+  "cross_ventilation_priority": "balanced",
+  "daylight_priority": "high",
+  "opening_preference": "balanced_openings",
+  "shading_preference": "moderate",
+  "courtyard_preference": false,
+  "veranda_preference": false,
+  "balcony_preference": "optional",
+  "outdoor_space_preference": "moderate",
+  "compactness_preference": "balanced",
+  "heat_gain_reduction_preference": "moderate",
+  "passive_cooling_strategies": ["cross ventilation", "seasonal shading"],
+  "passive_heating_strategies": ["seasonal solar access", "adjustable openings"],
+  "indoor_outdoor_connection": "moderate_high",
+  "roof_terrace_considerations": "flexible terrace with seasonal shading",
+  "recommended_planning_strategies": ["use adaptable openings", "balance compactness and outdoor connection", "allow seasonal comfort adjustments"]
+}

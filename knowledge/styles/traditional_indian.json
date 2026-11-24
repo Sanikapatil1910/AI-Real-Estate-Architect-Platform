@@ -1,0 +1,21 @@
+{
+  "name": "Traditional Indian",
+  "planning_philosophy": "Family-oriented traditional organization with clear public and private separation and climate-aware spaces.",
+  "preferred_layout_type": "courtyard_and_veranda",
+  "preferred_room_relationships": [["living_room", "veranda"], ["living_room", "courtyard"], ["dining", "kitchen"], ["dining", "puja_room"]],
+  "preferred_room_sizes": {"living_room": 1.06, "dining": 1.02, "kitchen": 1.02, "master_bedroom": 1.04},
+  "preferred_openness": 0.62,
+  "corridor_preference": "defined_public_private_transition",
+  "indoor_outdoor_relationship": "high",
+  "courtyard_preference": true,
+  "veranda_preference": true,
+  "balcony_preference": "optional",
+  "ceiling_volume_preference": "generous_traditional_common_space",
+  "natural_light_preference": "high_filtered_light",
+  "ventilation_preference": "climate_responsive",
+  "traditional_space_requirements": ["public_private_separation", "veranda_or_semi_open_transition"],
+  "puja_preference": "preferred",
+  "kitchen_planning": "practical kitchen separated from private rooms but connected to dining",
+  "entrance_characteristics": "defined traditional threshold and public arrival zone",
+  "material_appearance_hints": "traditional proportions, texture, and regional craft cues"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Modern Minimalistic",
+  "planning_philosophy": "Simple, efficient planning with useful openness and minimal unnecessary partitions.",
+  "preferred_layout_type": "open_plan",
+  "preferred_room_relationships": [["living_room", "dining"], ["dining", "kitchen"], ["kitchen", "utility"]],
+  "preferred_room_sizes": {"living_room": 1.0, "dining": 1.0, "kitchen": 1.0, "master_bedroom": 1.0},
+  "preferred_openness": 0.85,
+  "corridor_preference": "low",
+  "indoor_outdoor_relationship": "high",
+  "courtyard_preference": false,
+  "veranda_preference": false,
+  "balcony_preference": "optional",
+  "ceiling_volume_preference": "standard_clear_volume",
+  "natural_light_preference": "high",
+  "ventilation_preference": "cross_ventilation",
+  "traditional_space_requirements": [],
+  "puja_preference": "accommodate_when_requested",
+  "kitchen_planning": "compact and directly connected to dining and utility",
+  "entrance_characteristics": "simple, clearly legible entry",
+  "material_appearance_hints": "restrained palette and simple details"
+}

@@ -1,0 +1,19 @@
+{
+  "climate_name": "Hot and Humid",
+  "ventilation_priority": "very_high",
+  "cross_ventilation_priority": "very_high",
+  "daylight_priority": "high_filtered",
+  "opening_preference": "large_shaded_openings",
+  "shading_preference": "very_high",
+  "courtyard_preference": true,
+  "veranda_preference": true,
+  "balcony_preference": "shaded",
+  "outdoor_space_preference": "high",
+  "compactness_preference": "moderate",
+  "heat_gain_reduction_preference": "very_high",
+  "passive_cooling_strategies": ["cross ventilation", "shaded openings", "stack ventilation", "covered outdoor transitions"],
+  "passive_heating_strategies": [],
+  "indoor_outdoor_connection": "high_shaded",
+  "roof_terrace_considerations": "shaded roof and ventilated terrace surfaces",
+  "recommended_planning_strategies": ["orient habitable rooms for opposite openings", "retain courtyard or breezeway", "avoid deep sealed plans"]
+}

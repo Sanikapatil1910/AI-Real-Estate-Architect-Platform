@@ -1,0 +1,21 @@
+{
+  "name": "Maharashtrian Wada",
+  "planning_philosophy": "Inward-looking family house of the Deccan: rooms and verandahs gather round a central open court (chowk / angan), with a raised entrance platform (otta), a public front and private rear, and timber, stone and clay as the main materials.",
+  "preferred_layout_type": "courtyard_and_veranda",
+  "preferred_room_relationships": [["living_room", "veranda"], ["living_room", "courtyard"], ["dining", "kitchen"], ["dining", "puja_room"], ["kitchen", "utility"]],
+  "preferred_room_sizes": {"living_room": 1.08, "dining": 1.04, "kitchen": 1.02, "master_bedroom": 1.04, "puja_room": 1.1},
+  "preferred_openness": 0.6,
+  "corridor_preference": "verandah_corridors_around_court",
+  "indoor_outdoor_relationship": "high",
+  "courtyard_preference": true,
+  "veranda_preference": true,
+  "balcony_preference": "timber_balcony_over_entrance",
+  "ceiling_volume_preference": "high_timber_ceilings",
+  "natural_light_preference": "high_filtered_light_through_jali",
+  "ventilation_preference": "stack_ventilation_through_court",
+  "traditional_space_requirements": ["entrance_otta_verandah", "public_private_separation", "puja_room", "tulsi_vrindavan_optional"],
+  "puja_preference": "preferred",
+  "kitchen_planning": "practical kitchen separated from the public rooms, connected to dining and to a utility / wash area",
+  "entrance_characteristics": "raised otta with carved teak columns, a large double-leaf carved timber door under a tiled eave",
+  "material_appearance_hints": "carved teak, stone flooring, clay roof tiles, lime-washed ochre, cream and muted-red walls, brass lanterns and jali screens"
+}

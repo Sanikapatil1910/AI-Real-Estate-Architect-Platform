@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+.vscode/
+*.sqlite3
+*.db
+backend/data/*.db
+node_modules/
+frontend-react/node_modules/
+dist/
+.DS_Store
+# Debug and diagnostic files
+_debug*.txt
+_debug*.py
+_diag*.log
+_diag*.py
+_quality_diag*
+_run_diag*.py
+_verify_endpoints.py
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example

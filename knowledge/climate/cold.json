@@ -1,0 +1,19 @@
+{
+  "climate_name": "Cold",
+  "ventilation_priority": "moderate_controlled",
+  "cross_ventilation_priority": "moderate",
+  "daylight_priority": "high_solar_access",
+  "opening_preference": "controlled_sun_facing_openings",
+  "shading_preference": "low_to_moderate",
+  "courtyard_preference": false,
+  "veranda_preference": false,
+  "balcony_preference": "protected_optional",
+  "outdoor_space_preference": "low_exposed",
+  "compactness_preference": "high",
+  "heat_gain_reduction_preference": "low",
+  "passive_cooling_strategies": [],
+  "passive_heating_strategies": ["solar gain", "compact form", "protected entries", "buffer spaces"],
+  "indoor_outdoor_connection": "moderate_protected",
+  "roof_terrace_considerations": "insulated roof and protected terrace access",
+  "recommended_planning_strategies": ["reduce exposed surface area", "place key rooms for useful solar access", "use controlled rather than oversized openings"]
+}

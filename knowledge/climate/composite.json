@@ -1,0 +1,19 @@
+{
+  "climate_name": "Composite",
+  "ventilation_priority": "high",
+  "cross_ventilation_priority": "high",
+  "daylight_priority": "high_controlled",
+  "opening_preference": "adjustable_openings",
+  "shading_preference": "high",
+  "courtyard_preference": true,
+  "veranda_preference": true,
+  "balcony_preference": "shaded_optional",
+  "outdoor_space_preference": "moderate_high",
+  "compactness_preference": "balanced",
+  "heat_gain_reduction_preference": "high",
+  "passive_cooling_strategies": ["cross ventilation", "seasonal shading", "courtyard ventilation", "night purge where feasible"],
+  "passive_heating_strategies": ["seasonal solar access", "protected winter openings"],
+  "indoor_outdoor_connection": "moderate_high",
+  "roof_terrace_considerations": "insulated roof with seasonal terrace shading",
+  "recommended_planning_strategies": ["use adaptable openings", "combine shaded and exposed open spaces", "plan for seasonal operation"]
+}

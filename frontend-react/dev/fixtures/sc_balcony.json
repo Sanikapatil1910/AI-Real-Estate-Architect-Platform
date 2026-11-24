@@ -1,0 +1,1910 @@
+{
+ "plan_number": 1,
+ "strategy": "balanced_zoning",
+ "topology": "front_to_back_bands",
+ "building_type": "G+1",
+ "vastu_mode": "basic",
+ "architectural_style": "Modern Minimalistic",
+ "road_side": "South",
+ "parking": {
+  "required": false,
+  "spaces": 0,
+  "width": 9.0,
+  "length": 18.0,
+  "bay_width": 9.0,
+  "min_length": 15.0,
+  "area": 0.0,
+  "type": "No Parking",
+  "cars": 0,
+  "bikes": 0,
+  "bays": [],
+  "room_id": null,
+  "placed": true,
+  "bay_length": 15.0
+ },
+ "staircase_required": true,
+ "staircase": {
+  "width": 7.5,
+  "length": 17.0,
+  "riser_count": 21,
+  "riser_height_mm": 145.1,
+  "tread_depth_mm": 300,
+  "stair_width_feet": 3.5,
+  "stair_width_mm": 1067,
+  "floor_height": 10,
+  "floor_height_mm": 3048,
+  "entry_landing_feet": 3.28,
+  "flights": [
+   {
+    "name": "first_flight",
+    "riser_count": 10,
+    "tread_count": 9,
+    "run_feet": 8.86,
+    "direction": "up"
+   },
+   {
+    "name": "second_flight",
+    "riser_count": 11,
+    "tread_count": 10,
+    "run_feet": 9.84,
+    "direction": "up_reverse"
+   }
+  ],
+  "landing": {
+   "width_feet": 7.0,
+   "depth_feet": 3.5
+  },
+  "rules_ok": true
+ },
+ "floors": [
+  {
+   "floor": "Ground Floor",
+   "layout": {
+    "rooms": [
+     {
+      "id": "living_room",
+      "name": "Living Room",
+      "room_type": "living_room",
+      "width": 22.5,
+      "length": 17.0,
+      "area": 382.5,
+      "x": 3.0,
+      "y": 38.0,
+      "x2": 25.5,
+      "y2": 55.0,
+      "floor_index": 0,
+      "attached_to": null
+     },
+     {
+      "id": "bedroom_4",
+      "name": "Bedroom 4",
+      "room_type": "bedroom",
+      "width": 14.0,
+      "length": 11.5,
+      "area": 161.0,
+      "x": 25.5,
+      "y": 43.5,
+      "x2": 39.5,
+      "y2": 55.0,
+      "floor_index": 0,
+      "attached_to": null
+     },
+     {
+      "id": "bath_2",
+      "name": "Bath 2",
+      "room_type": "bathroom",
+      "width": 14.0,
+      "length": 5.5,
+      "area": 77.0,
+      "x": 25.5,
+      "y": 38.0,
+      "x2": 39.5,
+      "y2": 43.5,
+      "floor_index": 0,
+      "attached_to": "bedroom_4"
+     },
+     {
+      "id": "staircase",
+      "name": "Staircase",
+      "room_type": "staircase",
+      "width": 7.5,
+      "length": 17.0,
+      "area": 127.5,
+      "x": 39.5,
+      "y": 38.0,
+      "x2": 47.0,
+      "y2": 55.0,
+      "floor_index": 0,
+      "attached_to": null
+     },
+     {
+      "id": "corridor_0",
+      "name": "Passage",
+      "room_type": "passage",
+      "width": 44.0,
+      "length": 4.0,
+      "area": 176.0,
+      "x": 3.0,
+      "y": 34.0,
+      "x2": 47.0,
+      "y2": 38.0,
+      "floor_index": 0,
+      "attached_to": null
+     },
+     {
+      "id": "bath_common_1",
+      "name": "Common Bath",
+      "room_type": "bathroom",
+      "width": 11.5,
+      "length": 5.0,
+      "area": 57.5,
+      "x": 3.0,
+      "y": 29.0,
+      "x2": 14.5,
+      "y2": 34.0,
+      "floor_index": 0,
+      "attached_to": null
+     },
+     {
+      "id": "utility",
+      "name": "Utility",
+      "room_type": "utility",
+      "width": 11.5,
+      "length": 6.0,
+      "area": 69.0,
+      "x": 3.0,
+      "y": 23.0,
+      "x2": 14.5,
+      "y2": 29.0,
+      "floor_index": 0,
+      "attached_to": null
+     },
+     {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "room_type": "kitchen",
+      "width": 15.5,
+      "length": 11.0,
+      "area": 170.5,
+      "x": 14.5,
+      "y": 23.0,
+      "x2": 30.0,
+      "y2": 34.0,
+      "floor_index": 0,
+      "attached_to": null
+     },
+     {
+      "id": "dining",
+      "name": "Dining",
+      "room_type": "dining",
+      "width": 17.0,
+      "length": 11.0,
+      "area": 187.0,
+      "x": 30.0,
+      "y": 23.0,
+      "x2": 47.0,
+      "y2": 34.0,
+      "floor_index": 0,
+      "attached_to": null
+     }
+    ],
+    "plot": {
+     "width": 50.0,
+     "length": 60.0,
+     "area": 3000.0,
+     "x": 0.0,
+     "y": 0.0
+    },
+    "usable_plot": {
+     "x": 3.0,
+     "y": 3.0,
+     "width": 44.0,
+     "length": 52.0,
+     "area": 2288.0
+    },
+    "used_room_area": 1408.0,
+    "remaining_area": 880.0,
+    "valid": true,
+    "errors": [],
+    "road_side": "South",
+    "openings": {
+     "valid": true,
+     "errors": [],
+     "doors": [
+      {
+       "room": "living_room",
+       "room_type": "living_room",
+       "wall": "top",
+       "position": 9.5,
+       "width": 3.0,
+       "door_type": "internal",
+       "connects_to": "corridor_0",
+       "x1": 12.5,
+       "y1": 38.0,
+       "x2": 15.5,
+       "y2": 38.0
+      },
+      {
+       "room": "staircase",
+       "room_type": "staircase",
+       "wall": "top",
+       "position": 2.0,
+       "width": 3.0,
+       "door_type": "internal",
+       "connects_to": "corridor_0",
+       "x1": 41.5,
+       "y1": 38.0,
+       "x2": 44.5,
+       "y2": 38.0
+      },
+      {
+       "room": "corridor_0",
+       "room_type": "passage",
+       "wall": "top",
+       "position": 4.75,
+       "width": 2.5,
+       "door_type": "bathroom",
+       "connects_to": "bath_common_1",
+       "x1": 7.75,
+       "y1": 34.0,
+       "x2": 10.25,
+       "y2": 34.0
+      },
+      {
+       "room": "corridor_0",
+       "room_type": "passage",
+       "wall": "top",
+       "position": 34.0,
+       "width": 3.0,
+       "door_type": "internal",
+       "connects_to": "dining",
+       "x1": 37.0,
+       "y1": 34.0,
+       "x2": 40.0,
+       "y2": 34.0
+      },
+      {
+       "room": "kitchen",
+       "room_type": "kitchen",
+       "wall": "right",
+       "position": 3.5,
+       "width": 4.0,
+       "door_type": "arch",
+       "connects_to": "dining",
+       "x1": 30.0,
+       "y1": 30.5,
+       "x2": 30.0,
+       "y2": 26.5
+      },
+      {
+       "room": "utility",
+       "room_type": "utility",
+       "wall": "right",
+       "position": 1.75,
+       "width": 2.5,
+       "door_type": "utility",
+       "connects_to": "kitchen",
+       "x1": 14.5,
+       "y1": 27.25,
+       "x2": 14.5,
+       "y2": 24.75
+      },
+      {
+       "room": "living_room",
+       "room_type": "living_room",
+       "wall": "right",
+       "position": 9.5,
+       "width": 3.0,
+       "door_type": "bedroom",
+       "connects_to": "bedroom_4",
+       "x1": 25.5,
+       "y1": 50.5,
+       "x2": 25.5,
+       "y2": 47.5
+      },
+      {
+       "room": "bedroom_4",
+       "room_type": "bedroom",
+       "wall": "top",
+       "position": 5.75,
+       "width": 2.5,
+       "door_type": "bathroom",
+       "connects_to": "bath_2",
+       "x1": 31.25,
+       "y1": 43.5,
+       "x2": 33.75,
+       "y2": 43.5
+      },
+      {
+       "room": "living_room",
+       "room_type": "living_room",
+       "wall": "bottom",
+       "position": 9.0,
+       "width": 4.0,
+       "door_type": "main",
+       "connects_to": null,
+       "x1": 12.0,
+       "y1": 55.0,
+       "x2": 16.0,
+       "y2": 55.0
+      }
+     ],
+     "windows": [
+      {
+       "room": "living_room",
+       "room_type": "living_room",
+       "wall": "bottom",
+       "position": 13.75,
+       "width": 6.0,
+       "sill": 2.0,
+       "height": 5.0,
+       "chajja": {
+        "wall": "bottom",
+        "room": "living_room",
+        "position": 13.75,
+        "width": 7.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "living_room",
+       "room_type": "living_room",
+       "wall": "left",
+       "position": 9.25,
+       "width": 6.0,
+       "sill": 2.0,
+       "height": 5.0,
+       "chajja": {
+        "wall": "left",
+        "room": "living_room",
+        "position": 9.25,
+        "width": 7.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "living_room",
+       "room_type": "living_room",
+       "wall": "left",
+       "position": 1.75,
+       "width": 6.0,
+       "sill": 2.0,
+       "height": 5.0,
+       "chajja": {
+        "wall": "left",
+        "room": "living_room",
+        "position": 1.75,
+        "width": 7.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "bedroom_4",
+       "room_type": "bedroom",
+       "wall": "bottom",
+       "position": 1.25,
+       "width": 5.0,
+       "sill": 2.5,
+       "height": 4.5,
+       "chajja": {
+        "wall": "bottom",
+        "room": "bedroom_4",
+        "position": 1.25,
+        "width": 6.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "bedroom_4",
+       "room_type": "bedroom",
+       "wall": "bottom",
+       "position": 7.75,
+       "width": 5.0,
+       "sill": 2.5,
+       "height": 4.5,
+       "chajja": {
+        "wall": "bottom",
+        "room": "bedroom_4",
+        "position": 7.75,
+        "width": 6.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "staircase",
+       "room_type": "staircase",
+       "wall": "right",
+       "position": 7.25,
+       "width": 3.0,
+       "sill": 3.0,
+       "height": 4.0,
+       "chajja": {
+        "wall": "right",
+        "room": "staircase",
+        "position": 7.25,
+        "width": 4.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "corridor_0",
+       "room_type": "passage",
+       "wall": "left",
+       "position": 1.0,
+       "width": 2.0,
+       "sill": 3.0,
+       "height": 4.0,
+       "chajja": {
+        "wall": "left",
+        "room": "corridor_0",
+        "position": 1.0,
+        "width": 3.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "bath_common_1",
+       "room_type": "bathroom",
+       "wall": "left",
+       "position": 1.75,
+       "width": 2.0,
+       "sill": 5.0,
+       "height": 2.0,
+       "chajja": {
+        "wall": "left",
+        "room": "bath_common_1",
+        "position": 1.75,
+        "width": 3.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "utility",
+       "room_type": "utility",
+       "wall": "top",
+       "position": 4.25,
+       "width": 3.0,
+       "sill": 3.5,
+       "height": 3.5,
+       "chajja": {
+        "wall": "top",
+        "room": "utility",
+        "position": 4.25,
+        "width": 4.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "kitchen",
+       "room_type": "kitchen",
+       "wall": "top",
+       "position": 5.75,
+       "width": 4.0,
+       "sill": 3.0,
+       "height": 4.0,
+       "chajja": {
+        "wall": "top",
+        "room": "kitchen",
+        "position": 5.75,
+        "width": 5.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "dining",
+       "room_type": "dining",
+       "wall": "top",
+       "position": 6.25,
+       "width": 4.5,
+       "sill": 2.5,
+       "height": 4.5,
+       "chajja": {
+        "wall": "top",
+        "room": "dining",
+        "position": 6.25,
+        "width": 5.5,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      }
+     ],
+     "entrance": {
+      "room": "living_room",
+      "wall": "bottom",
+      "position": 9.0,
+      "width": 4.0,
+      "valid": true
+     },
+     "circulation": {
+      "graph": {
+       "living_room": [
+        "corridor_0",
+        "bedroom_4"
+       ],
+       "bedroom_4": [
+        "living_room",
+        "bath_2"
+       ],
+       "bath_2": [
+        "bedroom_4"
+       ],
+       "staircase": [
+        "corridor_0"
+       ],
+       "corridor_0": [
+        "living_room",
+        "staircase",
+        "bath_common_1",
+        "dining"
+       ],
+       "bath_common_1": [
+        "corridor_0"
+       ],
+       "utility": [
+        "kitchen"
+       ],
+       "kitchen": [
+        "dining",
+        "utility"
+       ],
+       "dining": [
+        "corridor_0",
+        "kitchen"
+       ]
+      },
+      "entry_room": "living_room",
+      "reachable_rooms": [
+       "bath_2",
+       "bath_common_1",
+       "bedroom_4",
+       "corridor_0",
+       "dining",
+       "kitchen",
+       "living_room",
+       "staircase",
+       "utility"
+      ],
+      "connected": true,
+      "valid": true,
+      "errors": [],
+      "indoor_connected": true
+     }
+    },
+    "open_spaces": {
+     "valid": true,
+     "regions": [
+      {
+       "type": "rear_garden",
+       "x": 3.0,
+       "y": 3.0,
+       "width": 44.0,
+       "length": 20.0,
+       "area": 880.0
+      }
+     ],
+     "errors": [],
+     "total_usable_area": 2288.0,
+     "occupied_room_area": 1408.0,
+     "remaining_unused_area": 880.0
+    },
+    "front_public": {
+     "strategy": "balanced_zoning",
+     "entrance_room": "living_room"
+    },
+    "ducts": [
+     {
+      "room": "bath_2",
+      "side": "top",
+      "x": 25.5,
+      "y": 38.0,
+      "width": 2.0,
+      "length": 1.5
+     },
+     {
+      "room": "bath_common_1",
+      "side": "left",
+      "x": 3.0,
+      "y": 29.0,
+      "width": 1.5,
+      "length": 2.0
+     }
+    ],
+    "roof_areas": [],
+    "balcony": {
+     "exists": false
+    },
+    "garden": {
+     "exists": false
+    }
+   },
+   "room_count": 9
+  },
+  {
+   "floor": "First Floor",
+   "layout": {
+    "rooms": [
+     {
+      "id": "staircase",
+      "name": "Staircase",
+      "room_type": "staircase",
+      "width": 7.5,
+      "length": 17.0,
+      "area": 127.5,
+      "x": 39.5,
+      "y": 38.0,
+      "x2": 47.0,
+      "y2": 55.0,
+      "floor_index": 1,
+      "attached_to": null
+     },
+     {
+      "id": "corridor_1",
+      "name": "Passage",
+      "room_type": "passage",
+      "width": 44.0,
+      "length": 4.0,
+      "area": 176.0,
+      "x": 3.0,
+      "y": 34.0,
+      "x2": 47.0,
+      "y2": 38.0,
+      "floor_index": 1,
+      "attached_to": null
+     },
+     {
+      "id": "balcony_1",
+      "name": "Balcony",
+      "room_type": "balcony",
+      "width": 4.0,
+      "length": 11.0,
+      "area": 44.0,
+      "x": 3.0,
+      "y": 23.0,
+      "x2": 7.0,
+      "y2": 34.0,
+      "floor_index": 1,
+      "attached_to": null
+     },
+     {
+      "id": "master_bedroom",
+      "name": "Master Bedroom",
+      "room_type": "master_bedroom",
+      "width": 14.0,
+      "length": 11.0,
+      "area": 154.0,
+      "x": 7.0,
+      "y": 23.0,
+      "x2": 21.0,
+      "y2": 34.0,
+      "floor_index": 1,
+      "attached_to": null
+     },
+     {
+      "id": "bath_master",
+      "name": "Master Bath",
+      "room_type": "bathroom",
+      "width": 5.0,
+      "length": 11.0,
+      "area": 55.0,
+      "x": 21.0,
+      "y": 23.0,
+      "x2": 26.0,
+      "y2": 34.0,
+      "floor_index": 1,
+      "attached_to": "master_bedroom"
+     },
+     {
+      "id": "bedroom_3",
+      "name": "Bedroom 3",
+      "room_type": "bedroom",
+      "width": 10.5,
+      "length": 11.0,
+      "area": 115.5,
+      "x": 26.0,
+      "y": 23.0,
+      "x2": 36.5,
+      "y2": 34.0,
+      "floor_index": 1,
+      "attached_to": null
+     },
+     {
+      "id": "bedroom_2",
+      "name": "Bedroom 2",
+      "room_type": "bedroom",
+      "width": 10.5,
+      "length": 11.0,
+      "area": 115.5,
+      "x": 36.5,
+      "y": 23.0,
+      "x2": 47.0,
+      "y2": 34.0,
+      "floor_index": 1,
+      "attached_to": null
+     }
+    ],
+    "plot": {
+     "width": 50.0,
+     "length": 60.0,
+     "area": 3000.0,
+     "x": 0.0,
+     "y": 0.0
+    },
+    "usable_plot": {
+     "x": 3.0,
+     "y": 3.0,
+     "width": 44.0,
+     "length": 52.0,
+     "area": 2288.0
+    },
+    "used_room_area": 787.5,
+    "remaining_area": 1500.5,
+    "valid": true,
+    "errors": [],
+    "road_side": "South",
+    "openings": {
+     "valid": true,
+     "errors": [],
+     "doors": [
+      {
+       "room": "staircase",
+       "room_type": "staircase",
+       "wall": "top",
+       "position": 2.0,
+       "width": 3.0,
+       "door_type": "internal",
+       "connects_to": "corridor_1",
+       "x1": 41.5,
+       "y1": 38.0,
+       "x2": 44.5,
+       "y2": 38.0
+      },
+      {
+       "room": "corridor_1",
+       "room_type": "passage",
+       "wall": "top",
+       "position": 9.5,
+       "width": 3.0,
+       "door_type": "bedroom",
+       "connects_to": "master_bedroom",
+       "x1": 12.5,
+       "y1": 34.0,
+       "x2": 15.5,
+       "y2": 34.0
+      },
+      {
+       "room": "master_bedroom",
+       "room_type": "master_bedroom",
+       "wall": "right",
+       "position": 4.25,
+       "width": 2.5,
+       "door_type": "bathroom",
+       "connects_to": "bath_master",
+       "x1": 21.0,
+       "y1": 29.75,
+       "x2": 21.0,
+       "y2": 27.25
+      },
+      {
+       "room": "balcony_1",
+       "room_type": "balcony",
+       "wall": "right",
+       "position": 4.0,
+       "width": 3.0,
+       "door_type": "bedroom",
+       "connects_to": "master_bedroom",
+       "x1": 7.0,
+       "y1": 30.0,
+       "x2": 7.0,
+       "y2": 27.0
+      },
+      {
+       "room": "corridor_1",
+       "room_type": "passage",
+       "wall": "top",
+       "position": 26.5,
+       "width": 3.0,
+       "door_type": "bedroom",
+       "connects_to": "bedroom_3",
+       "x1": 29.5,
+       "y1": 34.0,
+       "x2": 32.5,
+       "y2": 34.0
+      },
+      {
+       "room": "corridor_1",
+       "room_type": "passage",
+       "wall": "top",
+       "position": 37.5,
+       "width": 3.0,
+       "door_type": "bedroom",
+       "connects_to": "bedroom_2",
+       "x1": 40.5,
+       "y1": 34.0,
+       "x2": 43.5,
+       "y2": 34.0
+      }
+     ],
+     "windows": [
+      {
+       "room": "staircase",
+       "room_type": "staircase",
+       "wall": "right",
+       "position": 7.25,
+       "width": 3.0,
+       "sill": 3.0,
+       "height": 4.0,
+       "chajja": {
+        "wall": "right",
+        "room": "staircase",
+        "position": 7.25,
+        "width": 4.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "corridor_1",
+       "room_type": "passage",
+       "wall": "bottom",
+       "position": 7.0,
+       "width": 3.0,
+       "sill": 3.0,
+       "height": 4.0,
+       "chajja": {
+        "wall": "bottom",
+        "room": "corridor_1",
+        "position": 7.0,
+        "width": 4.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "corridor_1",
+       "room_type": "passage",
+       "wall": "bottom",
+       "position": 26.5,
+       "width": 3.0,
+       "sill": 3.0,
+       "height": 4.0,
+       "chajja": {
+        "wall": "bottom",
+        "room": "corridor_1",
+        "position": 26.5,
+        "width": 4.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "master_bedroom",
+       "room_type": "master_bedroom",
+       "wall": "top",
+       "position": 1.25,
+       "width": 5.0,
+       "sill": 2.5,
+       "height": 4.5,
+       "chajja": {
+        "wall": "top",
+        "room": "master_bedroom",
+        "position": 1.25,
+        "width": 6.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "master_bedroom",
+       "room_type": "master_bedroom",
+       "wall": "top",
+       "position": 7.75,
+       "width": 5.0,
+       "sill": 2.5,
+       "height": 4.5,
+       "chajja": {
+        "wall": "top",
+        "room": "master_bedroom",
+        "position": 7.75,
+        "width": 6.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "bath_master",
+       "room_type": "bathroom",
+       "wall": "top",
+       "position": 1.25,
+       "width": 2.0,
+       "sill": 5.0,
+       "height": 2.0,
+       "chajja": {
+        "wall": "top",
+        "room": "bath_master",
+        "position": 1.25,
+        "width": 3.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "bedroom_3",
+       "room_type": "bedroom",
+       "wall": "top",
+       "position": 2.75,
+       "width": 5.0,
+       "sill": 2.5,
+       "height": 4.5,
+       "chajja": {
+        "wall": "top",
+        "room": "bedroom_3",
+        "position": 2.75,
+        "width": 6.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "bedroom_2",
+       "room_type": "bedroom",
+       "wall": "right",
+       "position": 3.25,
+       "width": 5.0,
+       "sill": 2.5,
+       "height": 4.5,
+       "chajja": {
+        "wall": "right",
+        "room": "bedroom_2",
+        "position": 3.25,
+        "width": 6.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      },
+      {
+       "room": "bedroom_2",
+       "room_type": "bedroom",
+       "wall": "top",
+       "position": 2.75,
+       "width": 5.0,
+       "sill": 2.5,
+       "height": 4.5,
+       "chajja": {
+        "wall": "top",
+        "room": "bedroom_2",
+        "position": 2.75,
+        "width": 6.0,
+        "projection": 1.5,
+        "thickness": 0.33,
+        "overhang": 0.5
+       }
+      }
+     ],
+     "entrance": null,
+     "circulation": {
+      "graph": {
+       "staircase": [
+        "corridor_1"
+       ],
+       "corridor_1": [
+        "staircase",
+        "master_bedroom",
+        "bedroom_3",
+        "bedroom_2"
+       ],
+       "balcony_1": [
+        "master_bedroom"
+       ],
+       "master_bedroom": [
+        "corridor_1",
+        "bath_master",
+        "balcony_1"
+       ],
+       "bath_master": [
+        "master_bedroom"
+       ],
+       "bedroom_3": [
+        "corridor_1"
+       ],
+       "bedroom_2": [
+        "corridor_1"
+       ]
+      },
+      "entry_room": "staircase",
+      "reachable_rooms": [
+       "balcony_1",
+       "bath_master",
+       "bedroom_2",
+       "bedroom_3",
+       "corridor_1",
+       "master_bedroom",
+       "staircase"
+      ],
+      "connected": true,
+      "valid": true,
+      "errors": [],
+      "indoor_connected": true
+     }
+    },
+    "open_spaces": {
+     "valid": true,
+     "regions": [],
+     "errors": [],
+     "total_usable_area": 2288.0,
+     "occupied_room_area": 787.5,
+     "remaining_unused_area": 1500.5
+    },
+    "front_public": {
+     "strategy": "balanced_zoning",
+     "entrance_room": null
+    },
+    "ducts": [
+     {
+      "room": "bath_master",
+      "side": "top",
+      "x": 21.0,
+      "y": 23.0,
+      "width": 2.0,
+      "length": 1.5
+     }
+    ],
+    "roof_areas": [
+     {
+      "id": "flat_roof_f1",
+      "name": "Flat roof (not accessible)",
+      "x": 3.0,
+      "y": 38.0,
+      "x2": 39.5,
+      "y2": 55.0,
+      "width": 36.5,
+      "length": 17.0,
+      "area": 620.5,
+      "over": "Ground Floor"
+     }
+    ],
+    "balcony": {
+     "exists": true,
+     "x": 3.0,
+     "y": 23.0,
+     "width": 4.0,
+     "length": 11.0,
+     "attached_to": "bedroom"
+    },
+    "garden": {
+     "exists": false
+    },
+    "balcony_projections": [
+     {
+      "room": "balcony_1",
+      "sides": {
+       "top": 3.0,
+       "left": 1.0
+      },
+      "area_ft2": 26.0
+     }
+    ]
+   },
+   "room_count": 7
+  }
+ ],
+ "terrace": {
+  "exists": true,
+  "x": 3.0,
+  "y": 23.0,
+  "width": 44.0,
+  "length": 32.0,
+  "features": {},
+  "solar_panels": null,
+  "garden": null
+ },
+ "validation": [
+  {
+   "floor": "Ground Floor",
+   "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+     "3 bathroom(s) for 4 bedrooms: 2 attached, the rest are shared."
+    ],
+    "overall_score": 64.3,
+    "scores": {
+     "functional": 64.3,
+     "vastu": 64.7,
+     "daylight": 50.0,
+     "circulation": 95.8
+    },
+    "quality_5factor": {
+     "overall_score": 64.3,
+     "factors": {
+      "zoning": 53.8,
+      "adjacency": 71.4,
+      "circulation": 95.8,
+      "proportion": 47.4,
+      "daylight": 50.0,
+      "service": 75.0,
+      "privacy": 40.0
+     }
+    }
+   }
+  },
+  {
+   "floor": "First Floor",
+   "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "overall_score": 89.9,
+    "scores": {
+     "functional": 89.9,
+     "vastu": 64.7,
+     "daylight": 56.7,
+     "circulation": 95.8
+    },
+    "quality_5factor": {
+     "overall_score": 89.9,
+     "factors": {
+      "zoning": 78.8,
+      "adjacency": 100.0,
+      "circulation": 95.8,
+      "proportion": 72.3,
+      "daylight": 56.7,
+      "service": 100.0,
+      "privacy": 100.0
+     }
+    }
+   }
+  }
+ ],
+ "explanation": [
+  "Balanced zoning: public rooms at the road, private rooms behind.",
+  "The living room sits on the south road side and holds the main door.",
+  "The staircase occupies the same position on every floor, so the flight lines up.",
+  "4 bedroom(s) and 3 bathroom(s) are placed; every bedroom has an exterior wall for light.",
+  "Vastu match for this variant: 65% (mode: basic).",
+  "3 bathroom(s) for 4 bedrooms: 2 attached, the rest are shared.",
+  "Modern Minimalistic: clean geometry, a neutral palette, flat roofs with chajjas, simple openings and contemporary furniture."
+ ],
+ "quality_score": 42.2,
+ "engine": "architect",
+ "passes_90_percent": true,
+ "regeneration_attempts": 1,
+ "best_attempt_index": 1,
+ "bedroom_program": {
+  "valid": true
+ },
+ "master_bathroom": {
+  "valid": true
+ },
+ "mirrored": false,
+ "site": {
+  "frontage": 50.0,
+  "depth": 60.0,
+  "road_side": "South",
+  "frontage_selected": false,
+  "entered_plot": [
+   50.0,
+   60.0
+  ],
+  "plot_width": 50.0,
+  "plot_length": 60.0
+ },
+ "chajja_spec": {
+  "projection": 1.5,
+  "thickness": 0.33,
+  "overhang": 0.5
+ },
+ "roof_spec": {
+  "overhang_ft": 1.5,
+  "limits": [
+   0.5,
+   3.0
+  ],
+  "plot_clear_ft": 1.0,
+  "by_side": {
+   "top": 1.5,
+   "bottom": 1.5,
+   "left": 1.5,
+   "right": 1.5
+  }
+ },
+ "balcony_spec": {
+  "projection_ft": 3.0,
+  "limits": [
+   0.0,
+   4.0
+  ],
+  "plot_clear_ft": 2.0,
+  "allowed_by_side": {
+   "top": 3.0,
+   "bottom": 3.0,
+   "left": 1.0,
+   "right": 1.0
+  },
+  "projected_area_ft2": 26.0,
+  "note": "A cantilever beyond the enclosed floor, inside the setback area; check the local rule for projections into open margins."
+ },
+ "verification": {
+  "passed": true,
+  "checks": 77,
+  "errors": []
+ },
+ "circulation": {
+  "passed": true,
+  "issues": [],
+  "floors": [
+   {
+    "floor": "Ground Floor",
+    "entry": "living_room",
+    "indoor_rooms": 9,
+    "outdoor_rooms": 0,
+    "reachable_indoor": 9,
+    "issues": []
+   },
+   {
+    "floor": "First Floor",
+    "entry": "staircase",
+    "indoor_rooms": 6,
+    "outdoor_rooms": 1,
+    "reachable_indoor": 6,
+    "issues": []
+   }
+  ],
+  "errors": []
+ },
+ "cost": {
+  "rate_per_sqft": 2200,
+  "total_built_up_area": 2195.5,
+  "estimated_total_cost": 4830100.0,
+  "floors": [
+   {
+    "floor": "Ground Floor",
+    "built_up_area": 1408.0,
+    "estimated_cost": 3097600.0
+   },
+   {
+    "floor": "First Floor",
+    "built_up_area": 787.5,
+    "estimated_cost": 1732500.0
+   }
+  ],
+  "note": "Indicative estimate only; local rates, structure, finishes and approvals can change the final cost."
+ },
+ "energy": {
+  "Ground Floor": {
+   "score": 88.1,
+   "light_score": 81.2,
+   "ventilation_score": 94.9,
+   "climate": "Auto",
+   "climate_analysis": {
+    "climate": "Auto",
+    "score": 91.19,
+    "daylight_score": 75.0,
+    "cross_ventilation_score": 100.0,
+    "openness_score": 93.46,
+    "open_space_score": 100.0,
+    "soft_preference": true,
+    "passive_cooling_strategies": [],
+    "passive_heating_strategies": []
+   },
+   "opening_strategy": "balanced_openings",
+   "shading_strategy": "moderate",
+   "recommendations": [
+    "Use moderate shading and openings suited to the selected climate profile.",
+    "preserve basic daylight, ventilation, and feasible circulation"
+   ]
+  },
+  "First Floor": {
+   "score": 58.5,
+   "light_score": 49.8,
+   "ventilation_score": 67.2,
+   "climate": "Auto",
+   "climate_analysis": {
+    "climate": "Auto",
+    "score": 63.63,
+    "daylight_score": 33.33,
+    "cross_ventilation_score": 65.0,
+    "openness_score": 79.42,
+    "open_space_score": 100.0,
+    "soft_preference": true,
+    "passive_cooling_strategies": [],
+    "passive_heating_strategies": []
+   },
+   "opening_strategy": "balanced_openings",
+   "shading_strategy": "moderate",
+   "recommendations": [
+    "Increase external openings for major habitable rooms.",
+    "Provide openings on additional external faces where geometry permits cross-ventilation.",
+    "Use moderate shading and openings suited to the selected climate profile.",
+    "preserve basic daylight, ventilation, and feasible circulation"
+   ]
+  }
+ },
+ "compliance": {
+  "mode": "strict",
+  "exact": true,
+  "satisfied": 9,
+  "total": 9,
+  "score": 100.0,
+  "requested": {
+   "building_type": "G+1",
+   "floors": 2,
+   "bedrooms": 4,
+   "bathrooms": 3,
+   "cars": 0,
+   "bikes": 0,
+   "rooms": {
+    "living_room": 1,
+    "dining": 1,
+    "kitchen": 1,
+    "utility": 1,
+    "puja_room": 0,
+    "study": 0,
+    "family_lounge": 0
+   },
+   "balcony": true,
+   "terrace": true,
+   "garden": false,
+   "setbacks": {
+    "front": 5.0,
+    "rear": 3.0,
+    "left": 3.0,
+    "right": 3.0
+   },
+   "vastu_mode": "basic"
+  },
+  "delivered": {
+   "building_type": "G+1",
+   "floors": 2,
+   "bedrooms": 4,
+   "bathrooms": 3,
+   "attached_baths": 2,
+   "cars": 0,
+   "bikes": 0,
+   "parking_placement": null,
+   "rooms": {
+    "living_room": 1,
+    "dining": 1,
+    "kitchen": 1,
+    "utility": 1,
+    "puja_room": 0,
+    "study": 0,
+    "family_lounge": 0
+   },
+   "balcony": true,
+   "terrace": true,
+   "garden": true
+  },
+  "items": [
+   {
+    "key": "floors",
+    "label": "Floors",
+    "tier": 2,
+    "requested": "G+1",
+    "delivered": "G+1",
+    "met": true,
+    "detail": "",
+    "weight": 7
+   },
+   {
+    "key": "bedrooms",
+    "label": "Bedrooms",
+    "tier": 2,
+    "requested": 4,
+    "delivered": 4,
+    "met": true,
+    "detail": "",
+    "weight": 10
+   },
+   {
+    "key": "bathrooms",
+    "label": "Bathrooms",
+    "tier": 2,
+    "requested": 3,
+    "delivered": 3,
+    "met": true,
+    "detail": "",
+    "weight": 6
+   },
+   {
+    "key": "living_room",
+    "label": "Living room",
+    "tier": 2,
+    "requested": 1,
+    "delivered": 1,
+    "met": true,
+    "detail": "",
+    "weight": 8
+   },
+   {
+    "key": "dining",
+    "label": "Dining room",
+    "tier": 2,
+    "requested": 1,
+    "delivered": 1,
+    "met": true,
+    "detail": "",
+    "weight": 4
+   },
+   {
+    "key": "kitchen",
+    "label": "Kitchen",
+    "tier": 2,
+    "requested": 1,
+    "delivered": 1,
+    "met": true,
+    "detail": "",
+    "weight": 8
+   },
+   {
+    "key": "utility",
+    "label": "Utility / laundry",
+    "tier": 2,
+    "requested": 1,
+    "delivered": 1,
+    "met": true,
+    "detail": "",
+    "weight": 3
+   },
+   {
+    "key": "balcony",
+    "label": "Balcony",
+    "tier": 2,
+    "requested": true,
+    "delivered": true,
+    "met": true,
+    "detail": "",
+    "weight": 2
+   },
+   {
+    "key": "terrace",
+    "label": "Terrace",
+    "tier": 2,
+    "requested": "requested",
+    "delivered": "yes",
+    "met": true,
+    "detail": "",
+    "weight": 2
+   }
+  ],
+  "unmet": [],
+  "adjustments": [],
+  "compromises": [
+   "Rooms are up to 15% smaller than the comfortable sizes so that every room you asked for fits on this plot (nothing was removed).",
+   "Some rooms are longer than 1:1.25 (up to 1:1.6).",
+   "No layout kept every bathroom on an outer wall at these sizes, so at least one bathroom is inside the house and its pipes run through the duct shown on the plan."
+  ],
+  "setbacks_respected": true,
+  "plans_scores": [
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ]
+ },
+ "ledger": {
+  "spec": {
+   "building_type": "G+1",
+   "floors": 2,
+   "floor_names": [
+    "Ground Floor",
+    "First Floor"
+   ],
+   "rooms": {
+    "bathroom": 3,
+    "bedroom": 4,
+    "dining": 1,
+    "kitchen": 1,
+    "living_room": 1,
+    "utility": 1
+   },
+   "per_floor": null,
+   "parking": {
+    "cars": 0,
+    "bikes": 0
+   },
+   "terrace": true,
+   "balcony": true,
+   "garden": false,
+   "separate_toilet": false,
+   "plot": {
+    "frontage": 50.0,
+    "depth": 60.0,
+    "frontage_selected": false,
+    "road_side": "South",
+    "width": 50.0,
+    "length": 60.0
+   },
+   "setbacks": {
+    "front": 5.0,
+    "rear": 3.0,
+    "left": 3.0,
+    "right": 3.0
+   },
+   "mode": "strict"
+  },
+  "fingerprint": "138225e8a4e5a1b5",
+  "floors": {
+   "required": 2,
+   "actual": 2,
+   "met": true
+  },
+  "totals": [
+   {
+    "type": "bathroom",
+    "label": "Bathrooms",
+    "required": 3,
+    "actual": 3,
+    "met": true
+   },
+   {
+    "type": "bedroom",
+    "label": "Bedrooms",
+    "required": 4,
+    "actual": 4,
+    "met": true
+   },
+   {
+    "type": "dining",
+    "label": "Dining room",
+    "required": 1,
+    "actual": 1,
+    "met": true
+   },
+   {
+    "type": "kitchen",
+    "label": "Kitchen",
+    "required": 1,
+    "actual": 1,
+    "met": true
+   },
+   {
+    "type": "living_room",
+    "label": "Living room",
+    "required": 1,
+    "actual": 1,
+    "met": true
+   },
+   {
+    "type": "utility",
+    "label": "Utility",
+    "required": 1,
+    "actual": 1,
+    "met": true
+   }
+  ],
+  "per_floor": [
+   {
+    "floor": "Ground Floor",
+    "index": 0,
+    "required": null,
+    "actual": {
+     "living_room": 1,
+     "bedroom": 1,
+     "bathroom": 2,
+     "staircase": 1,
+     "passage": 1,
+     "utility": 1,
+     "kitchen": 1,
+     "dining": 1
+    },
+    "met": true
+   },
+   {
+    "floor": "First Floor",
+    "index": 1,
+    "required": null,
+    "actual": {
+     "staircase": 1,
+     "passage": 1,
+     "balcony": 1,
+     "bedroom": 3,
+     "bathroom": 1
+    },
+    "met": true
+   }
+  ],
+  "rooms": [
+   {
+    "id": "living_room",
+    "type": "living_room",
+    "floor": "Ground Floor",
+    "width": 22.5,
+    "length": 17.0,
+    "area": 382.5,
+    "connections": [
+     "bedroom_4",
+     "corridor_0"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 1,
+    "actual_count": 1,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "bedroom_4",
+    "type": "bedroom",
+    "floor": "Ground Floor",
+    "width": 14.0,
+    "length": 11.5,
+    "area": 161.0,
+    "connections": [
+     "bath_2",
+     "living_room"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 4,
+    "actual_count": 4,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "bath_2",
+    "type": "bathroom",
+    "floor": "Ground Floor",
+    "width": 14.0,
+    "length": 5.5,
+    "area": 77.0,
+    "connections": [
+     "bedroom_4"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 3,
+    "actual_count": 3,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "staircase",
+    "type": "staircase",
+    "floor": "Ground Floor",
+    "width": 7.5,
+    "length": 17.0,
+    "area": 127.5,
+    "connections": [
+     "corridor_0",
+     "corridor_1"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 0,
+    "actual_count": 2,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "corridor_0",
+    "type": "passage",
+    "floor": "Ground Floor",
+    "width": 44.0,
+    "length": 4.0,
+    "area": 176.0,
+    "connections": [
+     "bath_common_1",
+     "dining",
+     "living_room",
+     "staircase"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 0,
+    "actual_count": 2,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "bath_common_1",
+    "type": "bathroom",
+    "floor": "Ground Floor",
+    "width": 11.5,
+    "length": 5.0,
+    "area": 57.5,
+    "connections": [
+     "corridor_0"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 3,
+    "actual_count": 3,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "utility",
+    "type": "utility",
+    "floor": "Ground Floor",
+    "width": 11.5,
+    "length": 6.0,
+    "area": 69.0,
+    "connections": [
+     "kitchen"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 1,
+    "actual_count": 1,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "kitchen",
+    "type": "kitchen",
+    "floor": "Ground Floor",
+    "width": 15.5,
+    "length": 11.0,
+    "area": 170.5,
+    "connections": [
+     "dining",
+     "utility"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 1,
+    "actual_count": 1,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "dining",
+    "type": "dining",
+    "floor": "Ground Floor",
+    "width": 17.0,
+    "length": 11.0,
+    "area": 187.0,
+    "connections": [
+     "corridor_0",
+     "kitchen"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 1,
+    "actual_count": 1,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "staircase",
+    "type": "staircase",
+    "floor": "First Floor",
+    "width": 7.5,
+    "length": 17.0,
+    "area": 127.5,
+    "connections": [
+     "corridor_0",
+     "corridor_1"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 0,
+    "actual_count": 2,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "corridor_1",
+    "type": "passage",
+    "floor": "First Floor",
+    "width": 44.0,
+    "length": 4.0,
+    "area": 176.0,
+    "connections": [
+     "bedroom_2",
+     "bedroom_3",
+     "master_bedroom",
+     "staircase"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 0,
+    "actual_count": 2,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "balcony_1",
+    "type": "balcony",
+    "floor": "First Floor",
+    "width": 4.0,
+    "length": 11.0,
+    "area": 44.0,
+    "connections": [
+     "master_bedroom"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 0,
+    "actual_count": 1,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "master_bedroom",
+    "type": "master_bedroom",
+    "floor": "First Floor",
+    "width": 14.0,
+    "length": 11.0,
+    "area": 154.0,
+    "connections": [
+     "balcony_1",
+     "bath_master",
+     "corridor_1"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 4,
+    "actual_count": 4,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "bath_master",
+    "type": "bathroom",
+    "floor": "First Floor",
+    "width": 5.0,
+    "length": 11.0,
+    "area": 55.0,
+    "connections": [
+     "master_bedroom"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 3,
+    "actual_count": 3,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "bedroom_3",
+    "type": "bedroom",
+    "floor": "First Floor",
+    "width": 10.5,
+    "length": 11.0,
+    "area": 115.5,
+    "connections": [
+     "corridor_1"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 4,
+    "actual_count": 4,
+    "satisfies_requirement": true
+   },
+   {
+    "id": "bedroom_2",
+    "type": "bedroom",
+    "floor": "First Floor",
+    "width": 10.5,
+    "length": 11.0,
+    "area": 115.5,
+    "connections": [
+     "corridor_1"
+    ],
+    "geometry_valid": true,
+    "in_brief": true,
+    "required_count": 4,
+    "actual_count": 4,
+    "satisfies_requirement": true
+   }
+  ],
+  "violations": [],
+  "ok": true
+ }
+}

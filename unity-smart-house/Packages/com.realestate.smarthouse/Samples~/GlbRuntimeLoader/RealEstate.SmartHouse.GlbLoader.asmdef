@@ -1,0 +1,16 @@
+{
+  "name": "RealEstate.SmartHouse.GlbLoader",
+  "rootNamespace": "RealEstate.SmartHouse.Samples",
+  "references": [ "RealEstate.SmartHouse.Runtime", "glTFast" ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [
+    { "name": "com.unity.cloud.gltfast", "expression": "", "define": "SMARTHOUSE_GLTFAST" },
+    { "name": "com.atteneder.gltfast", "expression": "", "define": "SMARTHOUSE_GLTFAST" }
+  ],
+  "noEngineReferences": false
+}

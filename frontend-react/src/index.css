@@ -1,0 +1,11 @@
+@import './styles/theme.css';
+:root { line-height: 1.55; font-weight: 400; color-scheme: light; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { min-height: 100vh; min-width: 320px; }
+h1, h2, h3, h4, h5, h6 { font-weight: 600; line-height: 1.2; }
+button { font-family: inherit; cursor: pointer; }
+input, select, textarea, button { font: inherit; }
+img { max-width: 100%; }
+::-webkit-scrollbar { width: 9px; height: 9px; }
+::-webkit-scrollbar-track { background: var(--ivory-2); }
+::-webkit-scrollbar-thumb { background: var(--line-2); border-radius: 5px; }

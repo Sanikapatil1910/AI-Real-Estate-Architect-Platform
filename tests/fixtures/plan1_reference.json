@@ -1,0 +1,37 @@
+{
+  "source": "PLAN - 1.pdf (preliminary drawing, Kolhapur) - only dimensions legible on the drawing are listed; everything else is null = unknown",
+  "plot": {"width_ft": null, "length_ft": null, "note": "the plot dimensions are not legible on the drawing and are NOT assumed", "road_width_ft": 30, "setback_marked_ft": 5.0},
+  "stated_floor_area_sqft": {"ground": 755.5, "first": 923.5},
+  "ground": {
+    "rooms": [
+      {"type": "bedroom", "w": 10.0, "d": 14.0},
+      {"type": "living_room", "w": 13.25, "d": 15.0},
+      {"type": "kitchen_dining", "w": 11.25, "d": 15.5},
+      {"type": "bathroom", "w": 4.5, "d": 8.0},
+      {"type": "toilet", "w": 3.0, "d": 4.0},
+      {"type": "utility", "w": null, "d": null},
+      {"type": "store_under_stair", "w": null, "d": null},
+      {"type": "parking", "w": null, "d": null, "note": "dimension marks 12'-6.5\", 8'-0\" and 7'-6\" are visible but their reference edges are not unambiguous"}
+    ],
+    "lawn": true, "parking_cars": 1, "parking_on_road_side": true, "parking_beside_living_room": true
+  },
+  "first": {
+    "rooms": [
+      {"type": "bedroom", "w": 10.0, "d": 14.0},
+      {"type": "bedroom", "w": 11.25, "d": 10.0},
+      {"type": "bedroom", "w": 13.25, "d": 12.0},
+      {"type": "study_family", "w": 11.25, "d": 7.0},
+      {"type": "toilet", "w": 8.0, "d": 5.0},
+      {"type": "walk_in", "w": null, "d": null},
+      {"type": "balcony", "w": null, "d": null}
+    ],
+    "balcony_on_road_side": true
+  },
+  "relationships": [
+    "G+1; the stair is a single flight beside a store, between the kitchen/dining and the living room",
+    "one bedroom on the ground floor, three bedrooms on the first floor (bedrooms are split across the floors)",
+    "the car porch is at the road end, beside the living room, with a duct shaft between it and the bath / WC",
+    "wet rooms (bath, WC, toilet) are stacked or share a duct shaft",
+    "the first floor is larger than the ground floor (923.5 vs 755.5 sq ft): the upper floor projects over the open lawn / balcony"
+  ]
+}

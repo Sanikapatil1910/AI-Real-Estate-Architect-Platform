@@ -1,0 +1,19 @@
+{
+  "climate_name": "Warm and Moderate",
+  "ventilation_priority": "high",
+  "cross_ventilation_priority": "high",
+  "daylight_priority": "high",
+  "opening_preference": "generous_balanced_openings",
+  "shading_preference": "moderate",
+  "courtyard_preference": true,
+  "veranda_preference": false,
+  "balcony_preference": "preferred",
+  "outdoor_space_preference": "moderate_high",
+  "compactness_preference": "balanced",
+  "heat_gain_reduction_preference": "moderate",
+  "passive_cooling_strategies": ["cross ventilation", "adjustable shading", "landscaped open space"],
+  "passive_heating_strategies": ["seasonal solar access"],
+  "indoor_outdoor_connection": "high",
+  "roof_terrace_considerations": "usable terrace with moderate shading",
+  "recommended_planning_strategies": ["balance shaded and open facades", "provide flexible outdoor extensions", "prioritize daylight in common rooms"]
+}

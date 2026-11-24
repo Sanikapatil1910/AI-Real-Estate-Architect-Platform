@@ -1,0 +1,895 @@
+{
+ "schema": "realestate.smart-house/1",
+ "units": "feet",
+ "frame": "same as the exported .glb: x = plan x, y = up, z = plan y; floor n sits at y = n * wall_height_ft",
+ "plan_number": 1,
+ "style": "Modern Minimalistic",
+ "wall_height_ft": 10,
+ "slab_ft": 0.3,
+ "interior_wall_ft": 0.394,
+ "exterior_wall_ft": 0.755,
+ "footprint": {
+  "x0": 19.5,
+  "z0": 3,
+  "x1": 35,
+  "z1": 57
+ },
+ "floors": [
+  {
+   "level": 0,
+   "floor_y": 0.3,
+   "ceiling_y": 10
+  },
+  {
+   "level": 1,
+   "floor_y": 10.3,
+   "ceiling_y": 20
+  },
+  {
+   "level": 2,
+   "floor_y": 20.3,
+   "ceiling_y": 30
+  }
+ ],
+ "rooms": [
+  {
+   "id": "staircase",
+   "name": "Staircase 1",
+   "type": "staircase",
+   "floor": 0,
+   "rect": {
+    "x0": 19.5,
+    "z0": 3,
+    "x1": 27,
+    "z1": 20
+   },
+   "floor_y": 0.3,
+   "ceiling_y": 10,
+   "light": {
+    "pos": [
+     23.25,
+     9.88,
+     11.5
+    ],
+    "range_ft": 16.723
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     27,
+     4.3,
+     11.5
+    ],
+    "normal": [
+     -1,
+     0,
+     0
+    ],
+    "wall": "right",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "utility",
+   "name": "Utility",
+   "type": "utility",
+   "floor": 0,
+   "rect": {
+    "x0": 27,
+    "z0": 3,
+    "x1": 35,
+    "z1": 9
+   },
+   "floor_y": 0.3,
+   "ceiling_y": 10,
+   "light": {
+    "pos": [
+     31,
+     9.88,
+     6
+    ],
+    "range_ft": 9
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     33,
+     4.3,
+     9
+    ],
+    "normal": [
+     0,
+     0,
+     -1
+    ],
+    "wall": "bottom",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "kitchen",
+   "name": "Kitchen",
+   "type": "kitchen",
+   "floor": 0,
+   "rect": {
+    "x0": 27,
+    "z0": 9,
+    "x1": 35,
+    "z1": 20
+   },
+   "floor_y": 0.3,
+   "ceiling_y": 10,
+   "light": {
+    "pos": [
+     31,
+     9.88,
+     14.5
+    ],
+    "range_ft": 12.241
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     33,
+     4.3,
+     9
+    ],
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "wall": "top",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "dining",
+   "name": "Dining",
+   "type": "dining",
+   "floor": 0,
+   "rect": {
+    "x0": 23.5,
+    "z0": 20,
+    "x1": 35,
+    "z1": 30.5
+   },
+   "floor_y": 0.3,
+   "ceiling_y": 10,
+   "light": {
+    "pos": [
+     31.45,
+     9.88,
+     25.25
+    ],
+    "range_ft": 14.015
+   },
+   "fan": {
+    "pos": [
+     29.25,
+     9.35,
+     25.25
+    ],
+    "blade_radius_ft": 2.35,
+    "down_rod_ft": 0.65,
+    "blade_plane_above_floor_ft": 8.5
+   },
+   "switch": {
+    "pos": [
+     28.25,
+     4.3,
+     20
+    ],
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "wall": "top",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": {
+    "pos": [
+     27.4,
+     4.3,
+     20
+    ],
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "wall": "top",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "notes": []
+  },
+  {
+   "id": "bath_2",
+   "name": "Bath 2",
+   "type": "bathroom",
+   "floor": 0,
+   "rect": {
+    "x0": 23.5,
+    "z0": 30.5,
+    "x1": 35,
+    "z1": 35.5
+   },
+   "floor_y": 0.3,
+   "ceiling_y": 10,
+   "light": {
+    "pos": [
+     29.25,
+     9.88,
+     33
+    ],
+    "range_ft": 11.286
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     31,
+     4.3,
+     35.5
+    ],
+    "normal": [
+     0,
+     0,
+     -1
+    ],
+    "wall": "bottom",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "bedroom_4",
+   "name": "Bedroom 4",
+   "type": "bedroom",
+   "floor": 0,
+   "rect": {
+    "x0": 23.5,
+    "z0": 35.5,
+    "x1": 35,
+    "z1": 46
+   },
+   "floor_y": 0.3,
+   "ceiling_y": 10,
+   "light": {
+    "pos": [
+     31.45,
+     9.88,
+     40.75
+    ],
+    "range_ft": 14.015
+   },
+   "fan": {
+    "pos": [
+     29.25,
+     9.35,
+     40.75
+    ],
+    "blade_radius_ft": 2.35,
+    "down_rod_ft": 0.65,
+    "blade_plane_above_floor_ft": 8.5
+   },
+   "switch": {
+    "pos": [
+     31,
+     4.3,
+     35.5
+    ],
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "wall": "top",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": {
+    "pos": [
+     31.85,
+     4.3,
+     35.5
+    ],
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "wall": "top",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "notes": []
+  },
+  {
+   "id": "living_room",
+   "name": "Living Room",
+   "type": "living_room",
+   "floor": 0,
+   "rect": {
+    "x0": 23.5,
+    "z0": 46,
+    "x1": 35,
+    "z1": 57
+   },
+   "floor_y": 0.3,
+   "ceiling_y": 10,
+   "light": {
+    "pos": [
+     31.45,
+     9.88,
+     51.5
+    ],
+    "range_ft": 14.322
+   },
+   "fan": {
+    "pos": [
+     29.25,
+     9.35,
+     51.5
+    ],
+    "blade_radius_ft": 2.35,
+    "down_rod_ft": 0.65,
+    "blade_plane_above_floor_ft": 8.5
+   },
+   "switch": {
+    "pos": [
+     35,
+     4.3,
+     48.75
+    ],
+    "normal": [
+     -1,
+     0,
+     0
+    ],
+    "wall": "right",
+    "wall_thickness_ft": 0.755,
+    "exterior_wall": true
+   },
+   "regulator": {
+    "pos": [
+     35,
+     4.3,
+     47.9
+    ],
+    "normal": [
+     -1,
+     0,
+     0
+    ],
+    "wall": "right",
+    "wall_thickness_ft": 0.755,
+    "exterior_wall": true
+   },
+   "notes": []
+  },
+  {
+   "id": "corridor_0",
+   "name": "Passage 1",
+   "type": "passage",
+   "floor": 0,
+   "rect": {
+    "x0": 19.5,
+    "z0": 20,
+    "x1": 23.5,
+    "z1": 57
+   },
+   "floor_y": 0.3,
+   "ceiling_y": 10,
+   "light": {
+    "pos": [
+     21.5,
+     9.88,
+     38.5
+    ],
+    "range_ft": 33.494
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     23.5,
+     4.3,
+     43.25
+    ],
+    "normal": [
+     -1,
+     0,
+     0
+    ],
+    "wall": "right",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "staircase",
+   "name": "Staircase 2",
+   "type": "staircase",
+   "floor": 1,
+   "rect": {
+    "x0": 19.5,
+    "z0": 3,
+    "x1": 27,
+    "z1": 20
+   },
+   "floor_y": 10.3,
+   "ceiling_y": 20,
+   "light": {
+    "pos": [
+     23.25,
+     19.88,
+     11.5
+    ],
+    "range_ft": 16.723
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     19.5,
+     14.3,
+     6.775
+    ],
+    "normal": [
+     1,
+     0,
+     0
+    ],
+    "wall": "left",
+    "wall_thickness_ft": 0.755,
+    "exterior_wall": true
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "bath_master",
+   "name": "Master Bath",
+   "type": "bathroom",
+   "floor": 1,
+   "rect": {
+    "x0": 23.5,
+    "z0": 20,
+    "x1": 35,
+    "z1": 26.5
+   },
+   "floor_y": 10.3,
+   "ceiling_y": 20,
+   "light": {
+    "pos": [
+     29.25,
+     19.88,
+     23.25
+    ],
+    "range_ft": 11.889
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     31,
+     14.3,
+     26.5
+    ],
+    "normal": [
+     0,
+     0,
+     -1
+    ],
+    "wall": "bottom",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "master_bedroom",
+   "name": "Master Bedroom",
+   "type": "master_bedroom",
+   "floor": 1,
+   "rect": {
+    "x0": 23.5,
+    "z0": 26.5,
+    "x1": 35,
+    "z1": 40.5
+   },
+   "floor_y": 10.3,
+   "ceiling_y": 20,
+   "light": {
+    "pos": [
+     29.25,
+     19.88,
+     35.7
+    ],
+    "range_ft": 16.306
+   },
+   "fan": {
+    "pos": [
+     29.25,
+     19.35,
+     33.5
+    ],
+    "blade_radius_ft": 2.35,
+    "down_rod_ft": 0.65,
+    "blade_plane_above_floor_ft": 8.5
+   },
+   "switch": {
+    "pos": [
+     31,
+     14.3,
+     26.5
+    ],
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "wall": "top",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": {
+    "pos": [
+     31.85,
+     14.3,
+     26.5
+    ],
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "wall": "top",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "notes": []
+  },
+  {
+   "id": "bath_3",
+   "name": "Bath 3",
+   "type": "bathroom",
+   "floor": 1,
+   "rect": {
+    "x0": 23.5,
+    "z0": 40.5,
+    "x1": 35,
+    "z1": 46.5
+   },
+   "floor_y": 10.3,
+   "ceiling_y": 20,
+   "light": {
+    "pos": [
+     29.25,
+     19.88,
+     43.5
+    ],
+    "range_ft": 11.674
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     31,
+     14.3,
+     46.5
+    ],
+    "normal": [
+     0,
+     0,
+     -1
+    ],
+    "wall": "bottom",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "bedroom_2",
+   "name": "Bedroom 2",
+   "type": "bedroom",
+   "floor": 1,
+   "rect": {
+    "x0": 23.5,
+    "z0": 46.5,
+    "x1": 35,
+    "z1": 57
+   },
+   "floor_y": 10.3,
+   "ceiling_y": 20,
+   "light": {
+    "pos": [
+     31.45,
+     19.88,
+     51.75
+    ],
+    "range_ft": 14.015
+   },
+   "fan": {
+    "pos": [
+     29.25,
+     19.35,
+     51.75
+    ],
+    "blade_radius_ft": 2.35,
+    "down_rod_ft": 0.65,
+    "blade_plane_above_floor_ft": 8.5
+   },
+   "switch": {
+    "pos": [
+     31,
+     14.3,
+     46.5
+    ],
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "wall": "top",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": {
+    "pos": [
+     31.85,
+     14.3,
+     46.5
+    ],
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "wall": "top",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "notes": []
+  },
+  {
+   "id": "corridor_1",
+   "name": "Passage 2",
+   "type": "passage",
+   "floor": 1,
+   "rect": {
+    "x0": 19.5,
+    "z0": 20,
+    "x1": 23.5,
+    "z1": 57
+   },
+   "floor_y": 10.3,
+   "ceiling_y": 20,
+   "light": {
+    "pos": [
+     21.5,
+     19.88,
+     38.5
+    ],
+    "range_ft": 33.494
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     23.5,
+     14.3,
+     35.75
+    ],
+    "normal": [
+     -1,
+     0,
+     0
+    ],
+    "wall": "right",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "staircase",
+   "name": "Staircase 3",
+   "type": "staircase",
+   "floor": 2,
+   "rect": {
+    "x0": 19.5,
+    "z0": 3,
+    "x1": 27,
+    "z1": 20
+   },
+   "floor_y": 20.3,
+   "ceiling_y": 30,
+   "light": {
+    "pos": [
+     23.25,
+     29.88,
+     11.5
+    ],
+    "range_ft": 16.723
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     19.5,
+     24.3,
+     6.775
+    ],
+    "normal": [
+     1,
+     0,
+     0
+    ],
+    "wall": "left",
+    "wall_thickness_ft": 0.755,
+    "exterior_wall": true
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "bedroom_3",
+   "name": "Bedroom 3",
+   "type": "bedroom",
+   "floor": 2,
+   "rect": {
+    "x0": 23.5,
+    "z0": 20,
+    "x1": 35,
+    "z1": 38
+   },
+   "floor_y": 20.3,
+   "ceiling_y": 30,
+   "light": {
+    "pos": [
+     29.25,
+     29.88,
+     31.2
+    ],
+    "range_ft": 19.224
+   },
+   "fan": {
+    "pos": [
+     29.25,
+     29.35,
+     29
+    ],
+    "blade_radius_ft": 2.35,
+    "down_rod_ft": 0.65,
+    "blade_plane_above_floor_ft": 8.5
+   },
+   "switch": {
+    "pos": [
+     31,
+     24.3,
+     38
+    ],
+    "normal": [
+     0,
+     0,
+     -1
+    ],
+    "wall": "bottom",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": {
+    "pos": [
+     31.85,
+     24.3,
+     38
+    ],
+    "normal": [
+     0,
+     0,
+     -1
+    ],
+    "wall": "bottom",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "notes": []
+  },
+  {
+   "id": "bath_4",
+   "name": "Bath 4",
+   "type": "bathroom",
+   "floor": 2,
+   "rect": {
+    "x0": 23.5,
+    "z0": 38,
+    "x1": 35,
+    "z1": 44.5
+   },
+   "floor_y": 20.3,
+   "ceiling_y": 30,
+   "light": {
+    "pos": [
+     29.25,
+     29.88,
+     41.25
+    ],
+    "range_ft": 11.889
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     31,
+     24.3,
+     38
+    ],
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "wall": "top",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": null,
+   "notes": []
+  },
+  {
+   "id": "corridor_2",
+   "name": "Passage 3",
+   "type": "passage",
+   "floor": 2,
+   "rect": {
+    "x0": 19.5,
+    "z0": 20,
+    "x1": 23.5,
+    "z1": 57
+   },
+   "floor_y": 20.3,
+   "ceiling_y": 30,
+   "light": {
+    "pos": [
+     21.5,
+     29.88,
+     38.5
+    ],
+    "range_ft": 33.494
+   },
+   "fan": null,
+   "switch": {
+    "pos": [
+     23.5,
+     24.3,
+     31.25
+    ],
+    "normal": [
+     -1,
+     0,
+     0
+    ],
+    "wall": "right",
+    "wall_thickness_ft": 0.394,
+    "exterior_wall": false
+   },
+   "regulator": null,
+   "notes": []
+  }
+ ],
+ "notes": []
+}
